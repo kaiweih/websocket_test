@@ -9,6 +9,7 @@ const terminal = readline.createInterface({
 
 terminal.on('line', (text) => {
   const username = process.env.NAME;
+  // generate random id
   const id = Math.floor(Math.random() * 100000);
   displayedMessages[id] = true;
   const message = { id, text, username };
