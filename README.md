@@ -1,3 +1,3 @@
 # websocket_test
 
-practice using websocket
+using websocket
